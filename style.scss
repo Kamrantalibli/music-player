@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container{
+    width: 400px;
+    #progress{
+        .times{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    .card{
+        .card-footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .volume-container{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                i{
+                    margin-right: 5px;
+                }
+            }
+        }
+        #music-list{
+            ul{
+                .playing{
+                    background-color: #0b5eb7;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    
+}
